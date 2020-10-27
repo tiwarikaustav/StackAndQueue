@@ -41,5 +41,22 @@ namespace StacksAndQueue
         {
             linkedList.Traverse();
         }
+
+        /// <summary>
+        /// Peeks from top
+        /// </summary>
+        /// <returns>T Generic type</returns>
+        public int Peak()
+        {
+            return this.linkedList.head.data;
+        }
+
+        /// <summary>
+        /// Pops this instance.
+        /// </summary>
+        public void Pop()
+        {
+            this.linkedList.PopFront();
+        }
     }
 }

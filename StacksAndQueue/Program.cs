@@ -19,7 +19,11 @@ namespace StacksAndQueue
             Stack stack = new Stack();
             stack.Push(70);
             stack.Push(30);
+            Console.WriteLine("Peak value: " + stack.Peak());
             stack.Push(56);
+            stack.Traverse();
+            stack.Pop();
+            Console.WriteLine("Stack after pop operation: ");
             stack.Traverse();
         }
     }
