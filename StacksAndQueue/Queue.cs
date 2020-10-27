@@ -35,6 +35,14 @@ namespace StacksAndQueue
         }
 
         /// <summary>
+        /// Dequeus this instance.
+        /// </summary>
+        public void Dequeu()
+        {
+            linkedList.PopFront();
+        }
+
+        /// <summary>
         /// Traverses this instance.
         /// </summary>
         public void Traverse()
